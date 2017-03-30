@@ -13,3 +13,7 @@ Expected:
 Unexpected:
 	Disk Full
 	
+Invariants:
+
+Performance:
+	transfer rate
