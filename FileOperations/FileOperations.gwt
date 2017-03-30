@@ -1,0 +1,10 @@
+Scenario: Generic scenario for file operations
+
+Given
+	File F
+	Operation O
+	R is the outcome of O on F
+When
+	Invoke O on F
+Then
+	Outcome is R
