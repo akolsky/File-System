@@ -1,0 +1,9 @@
+Scenario: File already in the destination folder
+
+Given 
+	A[X]
+	B[X]
+When
+	Copy X: A->B
+Then
+	Error: File already in destination folder
