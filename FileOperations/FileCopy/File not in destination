@@ -1,0 +1,10 @@
+Scenario: Happy path for file copy
+
+Given 
+	A[X]
+	B[]
+When
+	Copy X: A->B
+Then
+	B[X]
+	A[X] (optional)

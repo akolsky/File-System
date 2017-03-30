@@ -1,0 +1,15 @@
+Variations:
+	B[X]
+	no A
+	no B
+	no X
+	A == B
+	
+Copy fail:
+Expected:
+	No Permissions
+	Disk Full
+	
+Unexpected:
+	Disk Full
+	
