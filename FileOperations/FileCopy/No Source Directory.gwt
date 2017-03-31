@@ -1,0 +1,9 @@
+Scenario: The source directory is not htere
+
+Given 
+	no A
+	B[]
+When
+	Copy X: A->B
+Then
+	Error: Source Directory Missing
