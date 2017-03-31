@@ -1,4 +1,4 @@
-Scenario: The source directory is not htere
+Scenario: The source directory is not there
 
 Given 
 	no A
